@@ -1,0 +1,18 @@
+.lista{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* background-color: aqua; */
+    padding: 20px;
+    list-style-type: none;
+    
+
+}
+.lista a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.lista li{
+    padding: 10px;
+    
+}
