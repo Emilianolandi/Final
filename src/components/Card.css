@@ -1,0 +1,21 @@
+.Card{
+    max-width: 333px;
+    background-color: rgb(230, 230, 236);
+    border: 8px  solid rgb(14, 14, 246);
+    border-radius: 5px;
+    box-shadow: 0 0 2px #cc0;
+}
+
+.card-imagen{
+    border-bottom: 1px solid blue;
+    width: 80%;
+   
+   
+}
+
+
+.gratis{
+    color: rgb(13, 95, 34);
+    font-size: 18px;
+    font-style: italic;
+}

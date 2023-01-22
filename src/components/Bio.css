@@ -1,0 +1,13 @@
+.biblio{
+    display: block;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Biblio h2{
+   color: rgb(48, 54, 54);
+    background-color: rgb(47, 110, 110);
+}
+.biblio h3{
+    display: flexbox;
+    justify-content: end;
+}

@@ -1,0 +1,47 @@
+[
+    {
+        "titulo": "El camino mas largo",
+        "imagen": "img/ntvgelcamino.jpg"
+        
+    }, 
+    {
+        "titulo": "Publico ",
+        "imagen":"img/publicocd.jpg"
+    }, 
+    {
+        "titulo": "Canciones",
+        "imagen":"img/25-canciones.jpg"
+    }, 
+    {
+        "titulo": "El tiempo otra vez avanza",
+        "imagen": "img/avanza.jpg"
+    },
+    {
+        "titulo": "Suenan las alarmas",
+        "imagen": "img/suenan-las-alarmas.jpg"
+    },
+    {
+        "titulo": "En vivo",
+        "imagen": "img/envivo.jpg"
+    },
+    {
+        "titulo": "Luz",
+        "imagen": "img/tapa-luz.jpg"
+    },
+    {
+        "titulo": "Otras canciones",
+        "imagen": "img/cd-otras.jpg"
+    },
+    {
+        "titulo": "albun 3",
+        "imagen": "img/avanza.jpg"
+    },
+    {
+        "titulo": "albun 3",
+        "imagen": "img/25-canciones.jpg"
+    },
+    {
+        "titulo": "El calor del frio invierno",
+        "imagen": "img/calor.jpg"
+    }
+]

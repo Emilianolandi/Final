@@ -1,0 +1,25 @@
+.disco{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  padding: 20px;
+ 
+}
+.disco img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    padding: 50px;
+
+}
+.Descripcion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(48, 47, 47);
+    padding: none;
+}
+
+

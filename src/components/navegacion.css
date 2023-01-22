@@ -1,3 +1,14 @@
+.botonera{
+    display: flex;
+    justify-content: center;
+     padding-left: 3px;
+    background-color: rgb(58, 114, 114);
+    padding: 3px;
+    border: 8px  solid rgb(44, 44, 47);
+    border-radius: 15px;
+ 
+}
+
 .lista{
     display: flex;
     justify-content: flex-end;
@@ -5,12 +16,18 @@
     /* background-color: aqua; */
     padding: 20px;
     list-style-type: none;
+
     
 
 }
 .lista a{
+    /* text-decoration: none; */
+    font-weight:bold;
+    
     text-decoration: none;
-    font-weight: bold;
+    color: bisque;
+    text-transform:uppercase;
+
 }
 .lista li{
     padding: 10px;

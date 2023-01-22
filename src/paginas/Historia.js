@@ -1,7 +1,9 @@
 import React from "react";
+import Bio from '../components/Bio';
 
-export default function (){
+
+export default function Historia(){
     return(
-        <h1>hola</h1>
+        <Bio />
     )
 }
