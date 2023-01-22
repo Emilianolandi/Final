@@ -1,6 +1,6 @@
 import './CardWrapper.css';
 import Tarjetas from '../Data/Tarjetas.json';
-import Card from './Card.js';
+import Card from '../components/Card'
 
 
 export default function CardWrapper ({titulo}) {
