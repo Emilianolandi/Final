@@ -5,7 +5,7 @@ import CardWrapper from "../components/CardWrapper"
 export default function Discografia(){
     return(
         <>
-        
+        <Card/>
         <CardWrapper
         titulo = {"Discografia"}
       />
