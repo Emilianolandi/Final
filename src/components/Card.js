@@ -2,7 +2,7 @@ import './Card.css'
 
 
 export default function Card({Card}) {
-let imagen = "img/envivo.jpg";
+// let imagen = "img/envivo.jpg";
     // let titulo = "Gatito";
     // let precio = 13662;
     let envio_gratis = true;
