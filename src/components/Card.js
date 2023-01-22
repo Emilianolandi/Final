@@ -11,7 +11,7 @@ let imagen = "img/envivo.jpg";
         <div className = "Card">
            <img className = "Card-img"src={Card.imagen} alt= ""/>
            <div>
-           
+          
              <h3 >{Card.titulo}</h3> 
             {/* <p className = "card-info_precio">${precio}</p> */}
             {/* {precio > 20000 && */}

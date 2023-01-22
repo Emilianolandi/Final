@@ -8,6 +8,5 @@
     background-color: rgb(47, 110, 110);
 }
 .biblio h3{
-    display: flexbox;
-    justify-content: end;
+   background-color: aliceblue;
 }
