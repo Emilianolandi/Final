@@ -1,0 +1,26 @@
+.pie-de-pagina{
+    border-top: 20px solid rgb(148, 136, 136);
+     background-color: #cdcbcb;
+     text-decoration: double;
+     display:flex;
+     align-items: center;
+     grid-template-columns:200px 200px 200px 1fr ;
+     grid-template-rows: 1fr 40px;
+     padding:10px 10px 0px 10px;
+      margin-top: 10px;
+ }
+ .copyright{
+     border-right:1px solid gray ;
+ }
+ .direccion-BSAS{
+     padding-left: 50px;
+ }
+ .firma {
+     grid-column: 3/5;
+     grid-row:3/3 ; 
+      text-align:end
+ }
+ .firma a{
+     color: gray;
+ 
+ }

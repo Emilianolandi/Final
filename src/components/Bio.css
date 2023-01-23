@@ -3,9 +3,12 @@
     justify-content: flex-start;
     align-items: center;
 }
-.Biblio h2{
+.Biblio h4{
    color: rgb(48, 54, 54);
-    background-color: rgb(47, 110, 110);
+    background-color: rgb(184, 208, 208);
+    border: 8px  solid rgb(44, 44, 47);
+    border-radius: 10px;
+    text-decoration:wavy;
 }
 .biblio h3{
    background-color: aliceblue;

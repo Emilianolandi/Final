@@ -3,11 +3,15 @@ import DiscoLuz from "../components/DiscoLuz";
 
 
 
+
+
+
 export default function Inicio (){
     return(
        <>
       
        <DiscoLuz />
+      
        </>
     )
 }

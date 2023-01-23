@@ -5,8 +5,17 @@ export default function Formulario(){
      <>
          <form action="ejemplo.js">
         <label>
-        Nombre:
-        <input type="text" required placeholder="ingrese nombre y apellido"/>
+        Nombre:<br></br>
+        <input type= "text" required placeholder= "ingrese nombre "/>
+        
+        </label><br></br>
+        <label>
+        apellido:<br></br>
+        <input type= "text" required placeholder= "ingrese  apellido"/>
+        
+        </label><br></br><label>
+        telefono:<br></br>
+        <input type= "Text" required placeholder= "ingrese telefono"/>
         
         </label><br></br>
         </form>

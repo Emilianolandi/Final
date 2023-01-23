@@ -1,6 +1,7 @@
 .botonera{
     display: flex;
-    justify-content: center;
+    justify-content:flex-end;
+    
      padding-left: 3px;
     background-color: rgb(58, 114, 114);
     padding: 3px;
