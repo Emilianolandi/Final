@@ -3,22 +3,49 @@ import './Formulario.css';
 export default function Formulario(){
     return(
      <>
-         <form action="ejemplo.js">
-        <label>
-        Nombre:<br></br>
-        <input type= "text" required placeholder= "ingrese nombre "/>
-        
-        </label><br></br>
-        <label>
-        apellido:<br></br>
-        <input type= "text" required placeholder= "ingrese  apellido"/>
-        
-        </label><br></br><label>
-        telefono:<br></br>
-        <input type= "Text" required placeholder= "ingrese telefono"/>
-        
-        </label><br></br>
-        </form>
-        </>
+         <form className='formulario'>
+             
+  <label>
+   Nombre
+    <input type="text" name="name" /><br></br>
+  
+  </label>
+  <label>
+    Apellido:
+    <input type="text" name="name" /><br></br>
+  
+  <label>
+  </label>
+    Direccion:
+    <input type="text" name="name" /><br></br>
+ 
+  </label>
+  <label>
+    E-mail:
+    <input type="text" name="name" /><br></br>
+ 
+  </label>
+  <label>
+    Telefono:
+    <input type="text" name="name" /><br></br>
+  
+  </label>
+  <label>
+    Telefono:
+    <input type="text" name="name" /><br></br>
+  
+  </label>
+  <label>
+ 
+     <input type="text" action="enviar"/>
+   <input type="submit"
+    value = "Suscribite"/>
+       
+                </label>
+ 
+  
+</form>
+       
+ </>
     )
-         }
+} 

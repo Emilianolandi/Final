@@ -1,19 +1,20 @@
 .pie-de-pagina{
-    border-top: 20px solid rgb(148, 136, 136);
+    border-top: 10px solid rgb(148, 136, 136);
      background-color: #cdcbcb;
      text-decoration: double;
-     display:flex;
-     align-items: center;
-     grid-template-columns:200px 200px 200px 1fr ;
-     grid-template-rows: 1fr 40px;
-     padding:10px 10px 0px 10px;
-      margin-top: 10px;
+     display:grid;
+     justify-content: end;
+    align-items: center;
+     grid-template-columns:100px 100px 100px 1fr ;
+     grid-template-rows: 2fr 3px;
+     padding:1px 1px 1px 1px;
+      margin-top: 3px;
  }
  .copyright{
-     border-right:1px solid gray ;
+      border-right:2px solid gray;
  }
  .direccion-BSAS{
-     padding-left: 50px;
+     padding-left: 20px;
  }
  .firma {
      grid-column: 3/5;
