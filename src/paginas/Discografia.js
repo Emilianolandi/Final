@@ -1,5 +1,6 @@
 import React from "react";
 
+
 import CardWrapper from "../components/CardWrapper"
 
 export default function Discografia(){
@@ -9,6 +10,7 @@ export default function Discografia(){
         <CardWrapper
         titulo = {"Discografia"}
       />
+        
       
         </>
     )
