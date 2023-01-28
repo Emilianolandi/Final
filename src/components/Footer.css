@@ -2,8 +2,8 @@
     border-top: 10px solid rgb(148, 136, 136);
      background-color: #cdcbcb;
      text-decoration: double;
-     display:grid;
-     justify-content: end;
+     display:flex;
+     justify-content: space-between;
     align-items: center;
      grid-template-columns:100px 100px 100px 1fr ;
      grid-template-rows: 2fr 3px;
@@ -25,3 +25,10 @@
      color: gray;
  
  }
+ 
+
+    .logo a{
+   display:grid;
+    justify-content:end;
+   
+}

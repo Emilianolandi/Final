@@ -6,6 +6,8 @@ import Discografia from './paginas/Discografia';
 import Historia from './paginas/Historia';
 import Contacto from './paginas/Contacto';
 import Layout from './paginas/Layout';
+// import Footer from './paginas/Inicio';
+
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
           <Route path="discografia" element={<Discografia/>}/>
           <Route path="historia" element={<Historia/>}/>
           <Route path="contacto" element={<Contacto/>}/>
+          {/* <Route path="Footer" element={<Inicio/>}/> */}
+
         </Route>
       </Routes>
 

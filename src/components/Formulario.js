@@ -1,51 +1,14 @@
-import './Formulario.css';
+export default function Formulario() {
+    function handleSubmit(e) {
+      e.preventDefault();
+      console.log('You clicked submit.');
+    }
+  
+    return (
+      <form onSubmit={handleSubmit}>
+        <button type="submit">Submit</button>
+      </form>
+    
 
-export default function Formulario(){
-    return(
-     <>
-         <form className='formulario'>
-             
-  <label>
-   Nombre
-    <input type="text" name="name" /><br></br>
-  
-  </label>
-  <label>
-    Apellido:
-    <input type="text" name="name" /><br></br>
-  
-  <label>
-  </label>
-    Direccion:
-    <input type="text" name="name" /><br></br>
- 
-  </label>
-  <label>
-    E-mail:
-    <input type="text" name="name" /><br></br>
- 
-  </label>
-  <label>
-    Telefono:
-    <input type="text" name="name" /><br></br>
-  
-  </label>
-  <label>
-    Telefono:
-    <input type="text" name="name" /><br></br>
-  
-  </label>
-  <label>
- 
-     <input type="text" action="enviar"/>
-   <input type="submit"
-    value = "Suscribite"/>
-       
-                </label>
- 
-  
-</form>
-       
- </>
-    )
-} 
+    );
+}
