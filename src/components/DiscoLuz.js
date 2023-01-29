@@ -4,14 +4,17 @@ import './DiscoLuz.css'
 export default function disco(){
     return(
        <> 
-       <h1 className='Descripcion'>
-           Nuevo disco</h1>
+       <div className='Enlace'>
+           <h1>ESCUCHAR</h1>
         <div className='disco'>
+            <button>
+        <a href='https://www.youtube.com/watch?v=cf2Yity-IX0'>    
        <img className='DiscoLuz' src='./img/tapa-luz.jpg' alt=""/>
-      
+       </a>
+       </button>
    </div>
 
-
+</div>
     <h2 className='Resumen'>
     El 7 de mayo de 2021 sale LUZ, nuestro décimo disco de estudio
                  producido por Héctor Castillo. Fue grabado en José Ignacio,

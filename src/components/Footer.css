@@ -1,6 +1,8 @@
+
 .pie-de-pagina{
+    
     border-top: 10px solid rgb(148, 136, 136);
-     background-color: #cdcbcb;
+     background-color: #c84d4d;
      text-decoration: double;
      display:flex;
      justify-content: space-between;
@@ -12,6 +14,7 @@
  }
  .copyright{
       border-right:2px solid gray;
+      
  }
  .direccion-BSAS{
      padding-left: 20px;
@@ -26,9 +29,8 @@
  
  }
  
-
-    .logo a{
-   display:grid;
-    justify-content:end;
-   
+.imagenes{
+    display: flex;
+    justify-content:space-around;
+    align-items: baseline;
 }

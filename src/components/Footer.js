@@ -25,29 +25,34 @@ export default function Footer(){
          </div>
    
     <div className='Logo'>
-              
+              <div className='imagenes'>
+                  
 <a href={"https://www.facebook.com/NTVG.OFICIALPAGE"}>
 	<img alt= './img/logoF.png'src="./img/logoF.png" width="66" height="49"/>
     </a>
     
-        
+        <br></br>
        
 <a href={"https://web.whatsapp.com/"}>
 <img alt= './img/logoF.png'  src="./img/logoF.png" width="66" height="49" />
 </a>
 
+            <br></br>
 
-
-<a href={"https://web.whatsapp.com/"}>
-<img alt= './img/logoF.png'  src="./img/logoF.png" width="66" height="49" />
-</a> 
 <a href={"https://web.whatsapp.com/"}>
 <img alt= './img/logoF.png'  src="./img/logoF.png" width="66" height="49" />
 </a>
-    
-    
+
+            <br></br>
+ 
+<a href={"https://web.whatsapp.com/"}>
+<img alt= './img/logoF.png'  src="./img/logoF.png" width="66" height="49" />
+</a>
+
     </div>
     </div>
+    </div>
+
  </>
     )
     }
