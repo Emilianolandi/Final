@@ -22,31 +22,32 @@ export default function Footer(){
         </h5>
         <div className='Firma'>
          <Link to='#'>Emiliano.D.L</Link>
-    </div>
+         </div>
+   
     <div className='Logo'>
-             
-<Link to="https://www.facebook.com/NTVG.OFICIALPAGE/">
-	<img alt= './img/logoF.png'  src="./img/logoF.png" width="66" height="49"/>
-</Link>
+              
+<a href={"https://www.facebook.com/NTVG.OFICIALPAGE"}>
+	<img alt= './img/logoF.png'src="./img/logoF.png" width="66" height="49"/>
+    </a>
     
-
-<Link to={"https://web.whatsapp.com/"}>
+        
+       
+<a href={"https://web.whatsapp.com/"}>
 <img alt= './img/logoF.png'  src="./img/logoF.png" width="66" height="49" />
-</Link>
+</a>
 
 
-<Link to={"https://web.whatsapp.com/"}>
+
+<a href={"https://web.whatsapp.com/"}>
 <img alt= './img/logoF.png'  src="./img/logoF.png" width="66" height="49" />
-</Link>
-
-
-<Link to={"https://web.whatsapp.com/"}>
+</a> 
+<a href={"https://web.whatsapp.com/"}>
 <img alt= './img/logoF.png'  src="./img/logoF.png" width="66" height="49" />
-    </Link>
+</a>
+    
     
     </div>
-</div>
-
-        </>
+    </div>
+ </>
     )
     }
