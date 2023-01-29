@@ -15,8 +15,8 @@ export default function disco(){
    </div>
 
 </div>
-    <h2 className='Resumen'>
-    El 7 de mayo de 2021 sale LUZ, nuestro décimo disco de estudio
+    <div className='Resumen'>
+   <h3> El 7 de mayo de 2021 sale LUZ, nuestro décimo disco de estudio
                  producido por Héctor Castillo. Fue grabado en José Ignacio,
                   Uruguay, en donde montamos un estudio de cero en el medio del
                    campo en uno de los lugares más lindos del país.
@@ -29,7 +29,8 @@ export default function disco(){
                     completamente nuevas. Un disco con invitados de primer 
                     nivel que reflejan la amplitud perseguida durante nuestros 
                     más de 26 años de carrera.
-    </h2>
+    </h3>
+    </div>
     </>
     )
 }

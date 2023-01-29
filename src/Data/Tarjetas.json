@@ -1,8 +1,8 @@
 [
     {
         "titulo": "El camino mas largo",
-        "imagen": "img/ntvgelcamino.jpg"
-        
+        "imagen": "img/ntvgelcamino.jpg",
+        "precio":"$2000"
     }, 
     {
         "titulo": "Publico ",
@@ -43,5 +43,6 @@
     {
         "titulo": "El calor del frio invierno",
         "imagen": "img/calor.jpg"
+        
     }
 ]

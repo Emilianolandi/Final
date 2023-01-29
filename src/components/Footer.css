@@ -2,7 +2,7 @@
 .pie-de-pagina{
     
     border-top: 10px solid rgb(148, 136, 136);
-     background-color: #c84d4d;
+     background-color: #805f5f;
      text-decoration: double;
      display:flex;
      justify-content: space-between;
@@ -13,7 +13,7 @@
       margin-top: 3px;
  }
  .copyright{
-      border-right:2px solid gray;
+      border-right:2px solid rgb(134, 77, 77);
       
  }
  .direccion-BSAS{
@@ -33,4 +33,5 @@
     display: flex;
     justify-content:space-around;
     align-items: baseline;
+    text-transform: none;
 }

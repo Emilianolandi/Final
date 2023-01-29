@@ -1,7 +1,7 @@
 .Card{
     max-width: 333px;
     background-color: rgb(230, 230, 236);
-    border: 8px  solid rgb(14, 14, 246);
+    border: 8px  solid rgb(35, 35, 37);
     border-radius: 5px;
     box-shadow: 0 0 2px #cc0;
 }

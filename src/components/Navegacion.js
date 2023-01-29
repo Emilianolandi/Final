@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 export default function botonera(){
     return(
-    <div className='botonera'>
+        <div className='botonera'>
     <ul className='lista'>
     <li>
         <Link to="/" className='Inicio'>Inicio</Link>
@@ -18,6 +18,8 @@ export default function botonera(){
         <Link to="Contacto" className='Contacto'> Contacto </Link>
     </li>
 </ul>
+            
+
 </div>
 
     )

@@ -10,6 +10,10 @@
     border-radius: 10px;
     text-decoration:wavy;
 }
-.biblio h3{
-   background-color: aliceblue;
+.Ress{
+   background-color: rgb(84, 144, 196);
 }
+.h3{
+    text-transform: capitalize;
+    color: blue;
+}   
