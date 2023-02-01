@@ -1,8 +1,8 @@
 [
     {
         "titulo": "El camino mas largo",
-        "imagen": "img/ntvgelcamino.jpg",
-        "precio":"$2000"
+        "imagen": "img/ntvgelcamino.jpg"
+        
     }, 
     {
         "titulo": "Publico ",

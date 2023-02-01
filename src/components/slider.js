@@ -13,7 +13,7 @@ export default function Imagenes() {
         <Swiper
 
 modules={[Navigation, Pagination, Scrollbar, A11y]}
-spaceBetween={50}
+spaceBetween={30}
 slidesPerView={1}
 navigation
 pagination={{ clickable: true }}
