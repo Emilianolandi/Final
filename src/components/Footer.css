@@ -1,6 +1,11 @@
-
+.contenedor{
+    max-width: 1200px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
 .pie-de-pagina{
-    
+    /* max-width: 1200px; */
     border-top: 10px solid rgb(148, 136, 136);
      background-color: #805f5f;
      text-decoration: double;
@@ -12,26 +17,9 @@
      padding:1px 1px 1px 1px;
       margin-top: 3px;
  }
- .copyright{
-      border-right:2px solid rgb(134, 77, 77);
-      
- }
- .direccion-BSAS{
-     padding-left: 20px;
- }
- .firma {
-     grid-column: 3/5;
-     grid-row:3/3 ; 
-      text-align:end
- }
- .firma a{
-     color: gray;
+
  
- }
  
-.imagenes{
-    display: flex;
-    justify-content:space-around;
-    align-items: baseline;
-    text-transform: none;
-}
+ 
+
+ 

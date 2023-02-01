@@ -3,7 +3,9 @@ import './Bio.css';
 export default function Historia(){
     return(
         <>
+       
   
+   
          < div className='Biblio'>
     <h3 className='Ress'>
         NO TE VA GUSTAR (NTVG) se formó en Montevideo, Uruguay, en el año 1994 cuando un grupo de amigos del liceo decidieron armar una banda y presentarse en un festival en una plaza del barrio.
@@ -18,7 +20,7 @@ La banda es apasionada por los procesos de grabación y la búsqueda y exploraci
 Nacidos en el corazón de la encantadora ciudad de Montevideo, con su melancólica paz, la atractiva intelectualidad de sus bares y cafés, y la musicalidad permanente de cada esquina, NTVG ha construido su universo musical en base a expandir lo que le brinda su entorno con elementos que va encontrando en su intenso camino.
  Con letras sentidas e inteligentes construyen un sonido que viaja entre lo autóctono y lo cosmopolita, manteniendo un mordaz equilibrio entre la amargura existencialista y el optimismo más guerrero
  </h3>
-     
+ 
 <div className='Integrantes'>
  <h3>Emiliano Brancciari 
     (VOZ Y GUITARRA) 
@@ -40,9 +42,11 @@ Nacidos en el corazón de la encantadora ciudad de Montevideo, con su melancóli
     </h3>
     </div>
     <div className='Fotoss'>
+        
     <img src='./img/26a.jpg' alt=""/> <br></br>
     <img src='./img/35a.jpg' alt=""/> <br></br>
     <img src='./img/32a.jpg' alt=""/> <br></br>
+    
         </div>
  </div>
    </>
