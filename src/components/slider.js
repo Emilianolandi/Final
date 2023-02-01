@@ -1,7 +1,52 @@
-import {Swiper, SwiperSlider} from "swiper/react";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
-import "silder.css"
 
-export default function Slider() {
-    
+
+export default function Imagenes() {
+    return(
+        <>
+        <Swiper
+
+modules={[Navigation, Pagination, Scrollbar, A11y]}
+spaceBetween={50}
+slidesPerView={3}
+navigation
+pagination={{ clickable: true }}
+scrollbar={{ draggable: true }}
+onSwiper={(swiper) => console.log(swiper)}
+onSlideChange={() => console.log('slide change')}
+>
+            <SwiperSlide>
+            <div className='Slider1'>
+                    <img className='img-slider'src='./img/avanza.jpg' alt= 'home'/>
+                </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className='Slider2'>
+                    <img className='img-slider'src='./img/avanza.jpg' alt= 'home'/>
+                </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className='Slider3'>
+                    <img className='img-slider'src='./img/avanza.jpg' alt= 'home'/>
+                </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className='Slider3'>
+                    <img className='img-slider'src='./img/avanza.jpg' alt= 'home'/>
+                </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className='Slider3'>
+                    <img className='img-slider'src='./img/avanza.jpg' alt= 'home'/>
+                </div>
+            </SwiperSlide>
+        </Swiper>
+        </>
+    )
 }
