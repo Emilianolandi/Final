@@ -12,8 +12,9 @@ import Layout from './paginas/Layout';
 
 
 function App() {
-  return (
-    <div className="App">
+
+    return (
+      <div className="App">
       <Routes>
        
           <Route path="/" element={<Layout/>}>

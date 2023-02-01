@@ -41,13 +41,7 @@ Nacidos en el corazón de la encantadora ciudad de Montevideo, con su melancóli
     (TECLADOS) 
     </h3>
     </div>
-    <div className='Fotoss'>
-        
-    <img src='./img/26a.jpg' alt=""/> <br></br>
-    <img src='./img/35a.jpg' alt=""/> <br></br>
-    <img src='./img/32a.jpg' alt=""/> <br></br>
-    
-        </div>
+   
  </div>
    </>
    )

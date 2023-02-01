@@ -14,7 +14,7 @@ export default function Imagenes() {
 
 modules={[Navigation, Pagination, Scrollbar, A11y]}
 spaceBetween={50}
-slidesPerView={3}
+slidesPerView={1}
 navigation
 pagination={{ clickable: true }}
 scrollbar={{ draggable: true }}
@@ -23,27 +23,27 @@ onSlideChange={() => console.log('slide change')}
 >
             <SwiperSlide>
             <div className='Slider1'>
-                    <img className='img-slider'src='./img/avanza.jpg' alt= 'home'/>
+                    <img className='img-slider'src='./img/18a.jpg' alt= 'home'/>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
             <div className='Slider2'>
-                    <img className='img-slider'src='./img/avanza.jpg' alt= 'home'/>
+                    <img className='img-slider'src='./img/21a.jpg' alt= 'home'/>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
             <div className='Slider3'>
-                    <img className='img-slider'src='./img/avanza.jpg' alt= 'home'/>
+                    <img className='img-slider'src='./img/23a.jpg' alt= 'home'/>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
             <div className='Slider3'>
-                    <img className='img-slider'src='./img/avanza.jpg' alt= 'home'/>
+                    <img className='img-slider'src='./img/26a.jpg' alt= 'home'/>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
             <div className='Slider3'>
-                    <img className='img-slider'src='./img/avanza.jpg' alt= 'home'/>
+                    <img className='img-slider'src='./img/30a.jpg' alt= 'home'/>
                 </div>
             </SwiperSlide>
         </Swiper>
