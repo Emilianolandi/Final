@@ -1,16 +1,58 @@
 .botonera{
+    
     display: flex;
     justify-content:flex-end;
     color: rgba(60, 58, 58, 0.23);
      padding-left: 3px;
-    background-color: rgb(36, 36, 34);
+     background-color:currentColor;  
     padding: 3px;
     border: 8px  solid rgb(143, 125, 139);
     border-radius: 15px;
-   
-  
+    animation-name: movimiento,colores;
+    animation-duration:80s ;
+    animation-name: colores;
+    animation-duration: 80s;
+    animation-iteration-count: 1;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+}
+@keyframes movimiento{
+    0%{
+        border-radius: 8px;
+    }
+    25%{
+        border-radius: 20px;
+        transform: translate(20px,50px);
+    }
+    50%{
+        border-radius: 50px;
+        transform: translate(200px,100px);
+    }
+    100%{
+        border-radius: 0px;
+        transform: translate(8px,2px);
+    }
 }
 
+@keyframes colores{
+    3%{
+        color: rgb(148, 52, 52);
+    }
+    10%{
+        color: rgb(81, 72, 81);
+    }
+    45%{
+        color: rgb(128, 128, 160);
+    }
+    75%{
+        color:rgba(82, 87, 86, 0)
+    }
+    80%{
+        color: white;
+    }
+}
+    
+    
   
  
   
@@ -20,7 +62,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    /* background-color: aqua; */
+    
     padding: 20px;
     list-style-type: none;
 
@@ -28,11 +70,11 @@
 
 }
 .lista a{
-    /* text-decoration: none; */
-    font-weight:bold;
-    
+     text-decoration: none; 
+    font-weight:initial;
+    font-family:fantasy;
     text-decoration: none;
-    color: bisque;
+    color: rgb(8, 5, 2);
     text-transform:uppercase;
 
 }

@@ -4,16 +4,24 @@
    
 }
 .biblio h4{
-   color: rgb(48, 54, 54);
+   color: rgb(4, 30, 30);
     background-color: rgb(184, 208, 208);
     border: 8px  solid rgb(44, 44, 47);
     border-radius: 10px;
     text-decoration:wavy;
 }
 .Ress{
-   background-color: rgb(84, 144, 196);
+   background-color: rgb(220, 224, 228);
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ margin-left: 400px;
+ margin-right: 400px;
 }
 .h3{
     text-transform: capitalize;
     color: blue;
 }   
+
+

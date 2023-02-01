@@ -1,5 +1,5 @@
 import React from "react";
-import Slider from "../components/slider";
+import Eventos from "../components/Eventos";
 import Formulario from "../components/Formulario";
 
 
@@ -8,9 +8,9 @@ export default function Contacto(){
         <>
          
         <h1>Contacto</h1>
+        <Eventos />
         <Formulario />
-  
-        <Slider />
+     
         </>
     )
 }

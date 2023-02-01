@@ -5,9 +5,10 @@ export default function Formulario(){
     const [nombre, setName]=useState("");
     return(
     <>
-    <label htmlForm= "Name"></label>
-    <imput type="text" id="Name" Name="name" value={nombre} onChange={(e)=>
+    <label htmlForm= "Name">
+    <imput type="text" id="Name" name="name" value={nombre} onChange={(e)=>
          setName(e.targer.value)}/>
+         </label>
     </>
     
     )
