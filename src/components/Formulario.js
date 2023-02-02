@@ -6,7 +6,11 @@ export default function Formulario(){
     return(
     <>
     <label htmlForm= "Name">
-    <imput type="text" id="Name" name="name" value={nombre} onChange={(e)=>
+    <imput type="text" 
+    id="Name"
+     name="name"
+      value={nombre} 
+      onChange={(e)=>
          setName(e.targer.value)}/>
          </label>
     </>

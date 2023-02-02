@@ -1,18 +1,30 @@
+:root{
+    
+    --GrisOscuro:rgb(60, 58, 58, 0.23);
+    --RosaOpaco:rgb(143, 125, 139);
+    --Coral: rgb(148, 52, 52);
+    --Violeta:rgb(98, 98, 164);
+    --Verde:rgba(93, 129, 122, 0);
+    --Rosa:rgb(236, 215, 215);
+    --negroOpaco:rgba(21, 21, 20, 0);
+    --negro:#000000;
+}
+
 .botonera{
     
     display: flex;
     justify-content:flex-end;
-    color: rgba(60, 58, 58, 0.23);
+    /* color:black; */
      padding-left: 3px;
      background-color:currentColor;  
     padding: 3px;
-    border: 8px  solid rgb(143, 125, 139);
+    border: 8px  solid var(--RosaOpaco);
     border-radius: 15px;
     animation-name: movimiento,colores;
     animation-duration:80s ;
     animation-name: colores;
     animation-duration: 80s;
-    animation-iteration-count: 1;
+    animation-iteration-count: 3;
     animation-delay: 10s;
     animation-fill-mode: forwards;
 }
@@ -35,20 +47,20 @@
 }
 
 @keyframes colores{
-    3%{
-        color: rgb(148, 52, 52);
+    33%{
+        color:var(--Coral);
     }
     10%{
-        color: rgb(81, 72, 81);
+        color:var(--RosaOpaco);
     }
     45%{
-        color: rgb(128, 128, 160);
+        color: var(--Violeta);
     }
     75%{
-        color:rgba(82, 87, 86, 0)
+        color:red;
     }
     80%{
-        color: white;
+        color:var(--Rosa);
     }
 }
     
@@ -74,8 +86,8 @@
     font-weight:initial;
     font-family:fantasy;
     text-decoration: none;
-    color: rgb(8, 5, 2);
-    text-transform:uppercase;
+    /* color:var(--negro); */
+     
 
 }
 .lista li{

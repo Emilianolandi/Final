@@ -8,8 +8,8 @@ export default function Contacto(){
         <>
          
         <h1>Contacto</h1>
-        <Eventos />
         <Formulario />
+        <Eventos />
      
         </>
     )
