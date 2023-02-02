@@ -24,7 +24,7 @@
     animation-duration:80s ;
     animation-name: colores;
     animation-duration: 80s;
-    animation-iteration-count: 3;
+    animation-iteration-count: 1;
     animation-delay: 10s;
     animation-fill-mode: forwards;
 }
@@ -82,7 +82,7 @@
 
 }
 .lista a{
-     text-decoration: none; 
+     
     font-weight:initial;
     font-family:fantasy;
     text-decoration: none;
