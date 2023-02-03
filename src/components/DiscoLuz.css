@@ -51,22 +51,22 @@ transition: all 6s;
 
 
 .Resumen{
-  padding: 20px; 
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px; 
   border: 8px  solid black;
 border-radius: 10px;
   text-align: center;
+ max-width: 1150px;
   
-  padding: 10px;
   margin-top: 30px;
 
   color: rgb(72, 69, 67);
 
 
 
-  animation-name: movimiento,colores;
+  animation-name: colores;
   animation-duration:30s ;
   animation-name: colores;
   animation-duration: 80s;
@@ -89,7 +89,7 @@ border-radius: 10px;
     color:red;
   }
   80%{
-    color:var(--Rosa);
+    color:rgb(168, 92, 41);
   }
 }
 
