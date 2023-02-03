@@ -2,7 +2,7 @@ import './Card.css'
 
 
 export default function Card({Card}) {
-    let precio
+    let precio = 3000;
     let envio_gratis = true;
  
 
@@ -16,7 +16,7 @@ export default function Card({Card}) {
            <div>
           
              <h3 >{Card.titulo}</h3> 
-             <p className = "card-info_precio">${2300}</p> 
+             <p className = "card-info_precio">${precio}</p> 
              {precio > 20000 && 
                 <p>Ho por dios</p> 
             }

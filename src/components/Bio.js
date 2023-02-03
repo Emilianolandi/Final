@@ -6,7 +6,7 @@ export default function Historia(){
        
   
    
-         < div className='Biblio'>
+         < div className='conte'>
     <h3 className='Ress'>
         NO TE VA GUSTAR (NTVG) se formó en Montevideo, Uruguay, en el año 1994 cuando un grupo de amigos del liceo decidieron armar una banda y presentarse en un festival en una plaza del barrio.
 
@@ -22,7 +22,7 @@ Nacidos en el corazón de la encantadora ciudad de Montevideo, con su melancóli
  </h3>
  
 <div className='Integrantes'>
- <h3>Emiliano Brancciari 
+ <h2>Emiliano Brancciari 
     (VOZ Y GUITARRA) 
      <br></br>
     Martín Gil
@@ -39,7 +39,7 @@ Nacidos en el corazón de la encantadora ciudad de Montevideo, con su melancóli
     (GUITARRA) <br></br>
     Francisco Nasser
     (TECLADOS) 
-    </h3>
+    </h2>
     </div>
    
  </div>

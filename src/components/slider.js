@@ -21,8 +21,11 @@ scrollbar={{ draggable: true }}
 onSwiper={(swiper) => console.log(swiper)}
 onSlideChange={() => console.log('slide change')}
 >
-            <SwiperSlide>
-            <div className='Slider1'>
+         
+           <SwiperSlide>
+
+            <div className='Slide1'>
+
                     <img className='img-slider'src='./img/18a.jpg' alt= 'home'/>
                 </div>
             </SwiperSlide>
@@ -33,18 +36,19 @@ onSlideChange={() => console.log('slide change')}
             </SwiperSlide>
             <SwiperSlide>
             <div className='Slider3'>
-                    <img className='img-slider'src='./img/23a.jpg' alt= 'home'/>
+                    <img className='img-slider'src='./img/23a.jpg'  alt= 'home'/>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className='Slider3'>
+            <div className='Slider4'>
                     <img className='img-slider'src='./img/26a.jpg' alt= 'home'/>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className='Slider3'>
+            <div className='Slider5'>
                     <img className='img-slider'src='./img/30a.jpg' alt= 'home'/>
                 </div>
+           
             </SwiperSlide>
         </Swiper>
         </>
