@@ -8,8 +8,8 @@ export default function Contacto(){
          
        
        
-        <Recitales />
         <Eventos />
+        <Recitales />
      
         </>
     )
