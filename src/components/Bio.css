@@ -11,6 +11,12 @@
     max-width: 1200px;
     min-width: 400px;
 }
+@media screen and (max-width: 700px){
+    .Recitales{
+        display: inline-block;
+    }
+}
+
 
 
 .Ress{
@@ -23,11 +29,6 @@ padding: 20px;
 text-align: center;
 border: 8px  solid var(--GrisAzulado);
 border-radius: 10px;
-}
-@media screen and (max-width: 700px){
-    .Recitales{
-        display: inline-block;
-    }
 }
 
 .Ress h3{
