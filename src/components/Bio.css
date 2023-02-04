@@ -12,6 +12,7 @@
     min-width: 400px;
 }
 
+
 .Ress{
     background-color:var(--celestePastel);
     display:flex;
@@ -23,6 +24,12 @@ text-align: center;
 border: 8px  solid var(--GrisAzulado);
 border-radius: 10px;
 }
+@media screen and (max-width: 700px){
+    .Recitales{
+        display: inline-block;
+    }
+}
+
 .Ress h3{
 color: var(--VerdeMusgo);
 /* background-color:var(--celestePastel) ; */

@@ -10,3 +10,8 @@
     margin-right: auto;
 
 }
+@media screen and (max-width: 700px){
+    .grilla{
+        display: inline-block;
+    }
+}
