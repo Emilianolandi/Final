@@ -7,7 +7,7 @@ import Historia from './paginas/Historia';
 import Contacto from './paginas/Contacto';
 import Layout from './paginas/Layout';
 
-// import Footer from './paginas/Inicio';
+
 
 
 

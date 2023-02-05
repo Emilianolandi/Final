@@ -1,9 +1,7 @@
-.contenedor{
-    
-    margin-top: -100px;
+
     
     
-}
+
 @media screen and (max-width: 700px){
     .Recitales{
         display: inline-block;
@@ -19,8 +17,7 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    padding: auto;
-   padding-left: 10px;
+   
  }
 
  

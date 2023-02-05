@@ -5,10 +5,7 @@ import Recitales from "../components/Recitales";
 export default function Contacto(){
     return(
         <>
-         
-       
-       
-        <Eventos />
+          <Eventos />
         <Recitales />
      
         </>
