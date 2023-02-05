@@ -12,24 +12,30 @@
     min-width: 400px;
 }
 @media screen and (max-width: 700px){
-    .Recitales{
+    .conte{
         display: inline-block;
     }
 }
 
 
 
-.Ress{
+.Ress {
     background-color:var(--celestePastel);
     display:flex;
   justify-content:center;
   align-items: center;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-padding: 20px;
+padding: 0px;
+border-top:10px;
 text-align: center;
 border: 8px  solid var(--GrisAzulado);
 border-radius: 10px;
 
+}
+@media screen and (max-width: 700px){
+    .Rees{
+        display: inline-block;
+    }
 }
 
 
