@@ -1,6 +1,8 @@
 .contenedor{
-    max-width: 1200px;
-   
+    
+    margin-top: -100px;
+    
+    
 }
 @media screen and (max-width: 700px){
     .Recitales{
@@ -11,13 +13,14 @@
 .pie-de-pagina{
     
     border-top: 10px solid rgb(148, 136, 136);
-      background-color:#7a695d; 
-     text-decoration: double;
-     display:flex;
-     justify-content: space-around;
+    background-color:#7a695d; 
+    text-decoration: double;
+    display:flex;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
-      margin-top: 3px;
+    padding: auto;
+   padding-left: 10px;
  }
 
  

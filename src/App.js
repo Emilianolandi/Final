@@ -28,13 +28,7 @@ function App() {
       </Routes>
 
 <header className='App-header'>
-  <a
-  className="App-link"
-  href="https://reacts.org"
-  target="_blank"
-  rel="noopener noreferrer"
-  >
-  </a>
+  
 </header>
  </div>
   );

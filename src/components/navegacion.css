@@ -24,9 +24,15 @@
     animation-duration:80s ;
     animation-name: colores;
     animation-duration: 80s;
-    animation-iteration-count: 1;
+    /* animation-iteration-count: 1s; */
     animation-delay: 10s;
     animation-fill-mode: forwards;
+}
+@media screen and (max-whdth:800px){
+    .botonera{
+        display: inline-block;
+    }
+    
 }
 
     
@@ -66,7 +72,7 @@
     }
 }
 
-    
+   
   
  
   
